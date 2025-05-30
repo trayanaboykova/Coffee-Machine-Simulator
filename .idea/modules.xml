@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Coffee-Machine-Simulator.iml" filepath="$PROJECT_DIR$/.idea/Coffee-Machine-Simulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/Coffee-Machine-Simulator.Coffee_Machine_Simulator_with_Java-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/Coffee-Machine-Simulator.Coffee_Machine_Simulator_with_Java-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/Coffee-Machine-Simulator.Coffee_Machine_Simulator_with_Java-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/Coffee-Machine-Simulator.Coffee_Machine_Simulator_with_Java-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/Coffee-Machine-Simulator.Coffee_Machine_Simulator_with_Java-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Coffee Machine Simulator with Java/task/Coffee-Machine-Simulator.Coffee_Machine_Simulator_with_Java-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Coffee-Machine-Simulator.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Coffee-Machine-Simulator.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Coffee-Machine-Simulator.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Coffee-Machine-Simulator.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Coffee-Machine-Simulator.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Coffee-Machine-Simulator.util.test.iml" />
     </modules>
   </component>
 </project>
