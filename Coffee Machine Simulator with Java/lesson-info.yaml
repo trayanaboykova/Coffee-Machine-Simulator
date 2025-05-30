@@ -1,0 +1,9 @@
+type: framework
+content:
+  - Make a first cup
+  - Calculate the ingredients
+  - Estimate the number of servings
+  - Add functions to your machine
+  - Keep track of the supplies
+  - Brush up your code
+current_task: 0

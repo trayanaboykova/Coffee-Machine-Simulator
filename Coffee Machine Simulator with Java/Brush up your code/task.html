@@ -1,0 +1,117 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>In this stage, let's improve the design of our program by organizing it into classes that represent different parts of the coffee machine. For instance, we can create one class for the coffee machine itself and another class to represent each type of coffee with its ingredients and cost. This approach helps structure the code better, allowing for easier reuse and extension. Each class should have methods that handle specific tasks, working together to process the user input and manage the coffee machine's operations.</p>
+<p>Your program should handle the user's input through methods in these classes. Every time the user inputs something, it will be processed by these methods to update the state of the machine. This setup simulates how real-world machines operate, where each part has a defined role.</p>
+<p>As the coffee machine operates, it will keep track of its resources, including water, milk, coffee beans, disposable cups, and the cash collected. Each action taken by the user should be processed in the context of the machine's current state, which reflects the available resources.</p>
+<p>Additionally, we'll introduce a new action: <strong>cleaning</strong>. The coffee machine will monitor how many coffees have been made. After producing 10 cups, it will require cleaning. During this action, the machine will not be able to make any more coffee until it is cleaned by the user typing <code class="java">"clean"</code>. After cleaning, the machine resumes its normal operations.</p>
+<p>Remember, that:</p>
+<ul>
+<li>For a cup of <strong>espresso</strong>, the coffee machine needs <em>250 ml</em> of water and <em>16 g</em> of coffee beans. It costs <em>$4</em>.</li>
+<li>For a <strong>latte</strong>, the coffee machine needs <em>350 ml</em> of water, <em>75 ml</em> of milk, and <em>20 g</em> of coffee beans. It costs <em>$7</em>.</li>
+<li>And for a <strong>cappuccino</strong>, the coffee machine needs <em>200 ml</em> of water, <em>100 ml</em> of milk, and <em>12 g</em> of coffee beans. It costs <em>$6</em>.</li>
+</ul>
+<h5 id="objective">Objective</h5>
+<p>Your final task is to refactor the program to ensure you can interact with the coffee machine through methods in the classes you created. Implement the <strong>cleaning </strong>action, where the machine requires cleaning after 10 cups of coffee are made. Once cleaned, the machine can make coffee again.</p>
+<p></p><div class="alert alert-primary">
+<p><strong>Note:</strong> Your coffee machine should start with the same initial resources: <em>400 ml</em> of water, <em>540 ml</em> of milk, <em>120 g</em> of coffee beans, <em>9</em> disposable cups, <em>$550</em> in cash.</p></div>
+<h5 id="example">Example</h5>
+<p>The greater-than symbol followed by a space (<code class="java">&gt; </code>) represents the user input. Note that it's not part of the input.</p>
+<pre><code class="language-no-highlight">Write action (buy, fill, take, clean, remaining, exit):
+&gt; remaining
+
+The coffee machine has:
+400 ml of water
+540 ml of milk
+120 g of coffee beans
+9 disposable cups
+$550 of money
+
+Write action (buy, fill, take, clean, remaining, exit):
+&gt; buy
+
+What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
+&gt; 2
+I have enough resources, making you a coffee!
+
+Write action (buy, fill, take, clean, remaining, exit):
+&gt; remaining
+
+The coffee machine has:
+50 ml of water
+465 ml of milk
+100 g of coffee beans
+8 disposable cups
+$557 of money
+
+Write action (buy, fill, take, clean, remaining, exit):
+&gt; buy
+
+What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
+&gt; 2
+Sorry, not enough water!
+
+Write action (buy, fill, take, clean, remaining, exit):
+&gt; fill
+
+Write how many ml of water you want to add:
+&gt; 1000
+Write how many ml of milk you want to add:
+&gt; 0
+Write how many grams of coffee beans you want to add:
+&gt; 0
+Write how many disposable cups you want to add:
+&gt; 0
+
+Write action (buy, fill, take, clean, remaining, exit):
+&gt; remaining
+
+The coffee machine has:
+1050 ml of water
+465 ml of milk
+100 g of coffee beans
+8 disposable cups
+$557 of money
+
+Write action (buy, fill, take, clean, remaining, exit):
+&gt; buy
+
+What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
+&gt; 2
+I have enough resources, making you a coffee!
+
+Write action (buy, fill, take, clean, remaining, exit):
+&gt; remaining
+
+The coffee machine has:
+700 ml of water
+390 ml of milk
+80 g of coffee beans
+7 disposable cups
+$564 of money
+
+Write action (buy, fill, take, clean, remaining, exit):
+&gt; take
+
+I gave you $564
+
+Write action (buy, fill, take, clean, remaining, exit):
+&gt; remaining
+
+The coffee machine has:
+700 ml of water
+390 ml of milk
+80 g of coffee beans
+7 disposable cups
+$0 of money</code></pre>
+<p><em>(After 10 cups of coffee have been made)</em></p>
+<pre><code class="language-no-highlight">Write action (buy, fill, take, clean, remaining, exit):
+&gt; buy
+I need cleaning!
+
+Write action (buy, fill, take, clean, remaining, exit):
+&gt; clean
+I have been cleaned!
+
+Write action (buy, fill, take, clean, remaining, exit):
+&gt; exit</code></pre>
+</div>
