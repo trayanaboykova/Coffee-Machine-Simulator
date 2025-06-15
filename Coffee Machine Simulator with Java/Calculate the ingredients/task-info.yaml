@@ -6,6 +6,9 @@ files:
   - name: test/CoffeeMachineTest.java
     visible: false
     learner_created: false
-feedback_link: https://hyperskill.org/projects/33/stages/176/implement#comment
-status: Unchecked
-record: -1
+feedback_link: https://hyperskill.org/learn/step/5330#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 15 Jun 2025 12:16:26 UTC"
+record: 2

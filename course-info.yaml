@@ -18,8 +18,6 @@ programming_language: Java
 programming_language_version: 11
 content:
   - Coffee Machine Simulator with Java
-additional_files:
-  - name: build.gradle
-  - name: settings.gradle
+  - Topics
 mode: Study
-yaml_version: 2
+yaml_version: 3

@@ -1,0 +1,16 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    highlight_level: NONE
+    learner_created: false
+  - name: src/Secret.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/11521#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 15 Jun 2025 12:42:07 UTC"
+record: -1
+submission_language: java17

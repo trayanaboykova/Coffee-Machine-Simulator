@@ -6,7 +6,7 @@
     <content url="file://$MODULE_DIR$/../../../../Coffee Machine Simulator with Java/task/src">
       <sourceFolder url="file://$MODULE_DIR$/../../../../Coffee Machine Simulator with Java/task/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="jbr-21" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
